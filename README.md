@@ -8,7 +8,7 @@ Make sure that you have [Leiningen](https://github.com/technomancy/leiningen) in
 (on OS X: `brew install leiningen`).
 Then
 
-    git clone https://github.com/ministryofjustice/pdf.tranformer.git
+    git clone git@github.com:ministryofjustice/pdf.transformer.git
     cd pdf.tranformer
     lein run -i form.pdf -o out.pdf -j names.json
 
